@@ -1,0 +1,84 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:url('gym.jpg') ;
+    background-size: cover; height:1000px;
+    background-repeat: no-repeat;
+    font-family: poppins;
+    }
+    .left{
+        color:aliceblue; display:inline-block;
+     text-align: center;    font-size: 18px;
+        height: 100px; width:100px;
+        position :absolute;
+        left:20px;
+        top:20px;
+        border-radius: 100px;
+        line-height: 20px;
+    }
+    .left img{
+        height: 60px; width:80px; filter:invert(200%);
+       
+    }
+    .middle{
+        color:aliceblue; display:block;
+        height: 100px; width:36%;
+margin:20px auto;padding:10px;
+    }
+   .right{
+        color:aliceblue; display:inline-block;
+     height: 100px; 
+    position :absolute;
+right:25px;
+top:20px;
+    }
+    .navbar{
+        
+        display: flex;
+        justify-content: flex-start;
+            flex-wrap: nowrap;
+    }
+    .navbar li {
+        padding: 2px;
+        overflow: hidden;
+        list-style-type: none;
+      font-size: 18px;
+     /* */
+    }
+    .navbar li a{
+        text-decoration: none;
+         padding:22px;  color: white;
+    }
+    .btn{
+        font-size: 15px;
+        display:inline-block; 
+        color: rgb(249, 248, 248);
+      padding: 4px 14px; margin:0px 9px;
+        border-radius: 10px; border:1px solid white; 
+background-color: rgb(25, 24, 24);  font-family: poppins;
+
+    }
+    .navbar a:hover{ 
+        background-color: rgb(36, 30, 28);
+        opacity: 0.8; text-decoration: underline;
+    }
+    .btn:hover{
+        text-decoration: underline;
+        background-color: rgb(83, 76, 73); opacity: 0.9;
+    }
+    .container{
+        border:1px solid white;      color:aliceblue; width:30%;
+        margin-left: 13px; height: 350px; padding: 10px ;
+        text-align:  center; border-radius: 30px; 
+    }
+    .form-g input{
+        border-radius: 8px;  padding:6px; width:385px;
+        border:1px solid rgb(11, 11, 11);  margin: 3px auto;  
+        text-align: center;    font-size: 18px;
+        font-family: poppins;
+    }
+    .container button {
+      margin-top:  15px;   width:125px;
+      text-align: center;    font-size: 18px;
+      font-family: poppins;
+    }
